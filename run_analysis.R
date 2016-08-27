@@ -14,7 +14,8 @@ listZip <- unzip("./data/assignment.zip", exdir = "./data")
 
 ## step 4: load data into R
 train.x <- read.table("./data/UCI HAR Dataset/train/X_train.txt")
-train.x <- read.table("./data/UCI HAR Dataset/train/X_train.txt")train.y <- read.table("./data/UCI HAR Dataset/train/y_train.txt")
+train.x <- read.table("./data/UCI HAR Dataset/train/X_train.txt")
+train.y <- read.table("./data/UCI HAR Dataset/train/y_train.txt")
 train.y <- read.table("./data/UCI HAR Dataset/train/y_train.txt")
 train.subject <- read.table("./data/UCI HAR Dataset/train/subject_train.txt")
 test.x <- read.table("./data/UCI HAR Dataset/test/X_test.txt")
